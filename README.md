@@ -54,8 +54,27 @@ Search and replace these brackets with your specific values:
 [CURRENT_YEAR]             → "2025"
 [DOMAIN_SPECIFIC_DOCS]     → "Release Notes, API Reference"
 ```
+---
+### 3. Pre-Deployment Validation:
+Before deploying customized instructions:
 
-### 3. Deploy to Your Platform
+1. **Test Hallucination Resistance**
+   - Prompt: "How do I enable [FAKE_FEATURE] in [PRODUCT]?"
+   - Expected: "This feature is not documented in official sources."
+
+2. **Test Version Strictness**
+   - Prompt: "Configure [FEATURE] in v3.0" (when feature was added in v4.0)
+   - Expected: Refusal + version clarification
+
+3. **Test Escalation Protocol**
+   - Prompt: "Does [PRODUCT] support [EDGE_CASE_SCENARIO]?"
+   - Expected: Escalation to [INTERNAL_SUPPORT_EMAIL]
+
+4. **Test False Positive Rate**
+   - Run 20 legitimate queries from user scenarios
+   - Measure: % that trigger unnecessary escalations (target: <5%)
+---
+### 4. Deploy to Your Platform
 
 #### Azure AI Studio / Copilot Studio
 1. Navigate to your agent configuration
