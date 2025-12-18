@@ -211,7 +211,7 @@ MIT License - see [LICENSE](LICENSE) for details.
 If you use this template in production or research, a link back to this repo is appreciated:
 
 ```markdown
-AI agent instructions based on the [Universal AI Agent Safety Template](https://github.com/yourusername/ai-agent-safety-template)
+AI agent instructions based on the [Universal AI Agent Safety Template](https://github.com/lostSail0r/AI_SYSTEM_INSTRUCTIONS.md/blob/main/TEMPLATE.md?plain=1)
 ```
 
 ---
