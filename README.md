@@ -6,10 +6,19 @@ Azure Open AI: Production-tested system instructions for enterprise AI agents
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Azure AI](https://img.shields.io/badge/Azure%20AI-Compatible-0078D4)](https://azure.microsoft.com/en-us/products/ai-services/openai-service)
 [![OpenAI](https://img.shields.io/badge/OpenAI-Compatible-412991)](https://platform.openai.com/)
+```
+License
+-------
 
+The MIT License applies only to:
+  • /template.md
+
+All other files (including /examples and any content under that path)
+are provided for reference only and are NOT covered by the MIT license.
+```
 ---
 
-## Why This Exists
+## Why This Personal Agent Instruction Template Exists
 
 **The Problem:** Large Language Models hallucinate technical details, mix up software versions, and confidently provide outdated instructions. In technical support, healthcare, legal, and compliance-heavy domains, this is unacceptable and costly.
 
