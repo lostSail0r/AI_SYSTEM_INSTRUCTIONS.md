@@ -13,7 +13,7 @@ License
 The MIT License applies only to:
   • /template.md
 
-All other files (including /examples and any content under that path)
+All other files (including **specific** /examples )
 are provided for reference only and are NOT covered by the MIT license.
 ```
 ---
@@ -40,8 +40,10 @@ Designed for real-world deployment in **Azure AI Studio**, **OpenAI Assistants A
 
 **Battle-tested:** v1.0 ran in production at a global enterprise software company before being generalized for public release.
 **Specific use cases in addition to template.md**
-- veeamgpt.md (Veeam Software) 
-- multi-cloud-infra.md (Multi-Cloud - Azure, Aws, etc)
+- veeamgpt.md
+(Veeam Software) 
+- multi-cloud-infra.md
+(Multi-Cloud - Azure, Aws, etc)
 ---
 
 ## Quick Start
