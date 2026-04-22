@@ -1,5 +1,5 @@
 Azure Open AI: Production-tested system instructions for enterprise AI agents
-# Universal AI Agent Safety Template
+# Universal AI Agent Safety Template (With specific examples)
 
 > Production-tested system instructions for enterprise AI agents that prioritize accuracy, version-control, and anti-hallucination safeguards.
 
@@ -39,7 +39,9 @@ Designed for real-world deployment in **Azure AI Studio**, **OpenAI Assistants A
 | ⚖️ **Compliance** | Built-in HIPAA/GDPR/SOC2 escalation protocols |
 
 **Battle-tested:** v1.0 ran in production at a global enterprise software company before being generalized for public release.
-
+**Specific use cases in addition to template.md**
+- veeamgpt.md (Veeam Software) 
+- multi-cloud-infra.md (Multi-Cloud - Azure, Aws, etc)
 ---
 
 ## Quick Start
