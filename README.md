@@ -198,7 +198,10 @@ Most "prompt templates" are vague platitudes like "be helpful and accurate." Thi
 ├── README.md              ← You are here
 ├── TEMPLATE.md            ← The full system instructions template
 ├── examples/
+|   └── veeamGPT.MD        ← Fully customized example for a backup, security and data protection  company
 │   └── cloud-infra.md     ← Fully customized example for a cloud infrastructure company
+│   └── -codingps1md       ← Fully customized example for a ***
+│   └── -yaragenerator.md  ← Fully customized example for a ***
 └── LICENSE                ← MIT License
 ```
 
@@ -227,7 +230,7 @@ MIT License - see [LICENSE](LICENSE) for details.
 If you use this template in production or research, a link back to this repo is appreciated:
 
 ```markdown
-AI agent instructions based on the [Universal AI Agent Safety Template](https://github.com/lostSail0r/AI_SYSTEM_INSTRUCTIONS.md/blob/main/TEMPLATE.md?plain=1)
+AI agent instructions based on the [Universal AI Agent Safety Template](https://github.com/CGFixIt/AzureAI-CopilotStudio-PersonalAgent-Instructions/blob/main/TEMPLATE.md?plain=1)
 ```
 
 ---
