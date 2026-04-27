@@ -1,4 +1,4 @@
-Azure Open AI: Production-tested system instructions for enterprise AI agents
+Azure Open AI: Production-tested system instructions for enterprise AI personal agents
 # Universal AI Agent Safety
 (With specific examples)
 
@@ -13,9 +13,10 @@ License
 
 The MIT License applies only to:
   • /template.md
+  • /examples/cloud-infra.md
 
 All other files
-(including **specific** /examples )
+(including **veeam-specific** /examples )
 are provided for reference only and are NOT covered by the MIT license.
 ```
 ---
@@ -51,7 +52,7 @@ Designed for real-world deployment in **Azure AI Studio**, **OpenAI Assistants A
 ## Quick Start
 
 ### 1. Copy the Template
-Download [`TEMPLATE.md`](TEMPLATE.md) or copy the raw markdown into your AI agent's system instructions field.
+Download [`TEMPLATE.md`](TEMPLATE.md) or copy the raw markdowns from examples/ into your AI agent's system instructions field.
 
 ### 2. Customize Placeholders
 Search and replace these brackets with your specific values:
